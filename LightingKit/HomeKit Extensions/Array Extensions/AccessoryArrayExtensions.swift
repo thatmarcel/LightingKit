@@ -33,7 +33,7 @@ internal extension Array where Element: HomeKitAccessoryProtocol {
      the array.
      */
     func lightingKitLights(servicesBuilder builder: HomeKitServiceBuilder
-        = LightServiceFactory(handlers: [PowerServiceHandler(), BrightnessServiceHandler()]))
+        = LightServiceFactory(handlers: [PowerServiceHandler(), BrightnessServiceHandler(), ColorServiceHandler()]))
         -> [Light] {
             var lights: [Light] = []
             forEach { object in
