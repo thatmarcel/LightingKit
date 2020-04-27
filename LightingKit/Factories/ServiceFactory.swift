@@ -18,7 +18,7 @@ class LightServiceFactory: HomeKitServiceBuilder {
      - handlers: The `ServiceHandler` objects to use to build services.
      - returns: An initialized `LightServiceBuilder` object.
      */
-    init(handlers: [ServiceHandler] = [PowerServiceHandler(), BrightnessServiceHandler()]) {
+    init(handlers: [ServiceHandler] = [PowerServiceHandler(), BrightnessServiceHandler(), ColorServiceHandler()]) {
         self.handlers = handlers
     }
     func assignServices(to light: Light, with characteristics: [HomeKitCharacteristicProtocol]?) {

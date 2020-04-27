@@ -48,6 +48,19 @@ class BrightnessServiceHandler: ServiceHandler {
     }
 }
 
+/// Used to assign a `Color` service to a `Light`
+class ColorServiceHandler: ServiceHandler {
+    func assignService(to light: Light,
+                       with characteristic: HomeKitCharacteristicProtocol?,
+                       successor: ServiceHandler?) {
+        guard let color = Color(homeKitCharacteristic: characteristic) else {
+            successor?.assignService(to: light, with: characteristic, successor: nil)
+            return
+        }
+        light.color = color
+    }
+}
+
 /// Used to assign services to `Light`
 protocol HomeKitServiceBuilder {
     /// The `ServiceHandler` objects to use to assign services

@@ -19,6 +19,8 @@ public class Light: LightingKitObject {
     internal (set) public var power: Power?
     /// The `Brightness` object. Used to set the brightness state of the light.
     internal (set) public var brightness: Brightness?
+    /// The `Color` object. Used to set the color of the light.
+    internal (set) public var color: Color?
     /**
      Initializes a `Light` object.
      - Parameters:

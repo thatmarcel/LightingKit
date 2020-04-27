@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4833072457361300868E82 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4833062457361300868E82 /* Color.swift */; };
 		720BAB3B21B7B3B300A85EC8 /* LightingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BAB3A21B7B3B300A85EC8 /* LightingGroup.swift */; };
 		720BAB3F21B7B50800A85EC8 /* PowerGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BAB3E21B7B50800A85EC8 /* PowerGroup.swift */; };
 		720BAB4121B7B54300A85EC8 /* BrightnessGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BAB4021B7B54300A85EC8 /* BrightnessGroup.swift */; };
@@ -87,6 +88,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F4833062457361300868E82 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		720BAB3A21B7B3B300A85EC8 /* LightingGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightingGroup.swift; sourceTree = "<group>"; };
 		720BAB3E21B7B50800A85EC8 /* PowerGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerGroup.swift; sourceTree = "<group>"; };
 		720BAB4021B7B54300A85EC8 /* BrightnessGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessGroup.swift; sourceTree = "<group>"; };
@@ -270,6 +272,7 @@
 				7278437521A9EFF900FD2445 /* Characteristic.swift */,
 				72A0372321A8479D001E8761 /* Power.swift */,
 				72A0372121A84795001E8761 /* Brightness.swift */,
+				1F4833062457361300868E82 /* Color.swift */,
 				729BB52721B026BF00EB89E1 /* Bridge.swift */,
 				720BAB3A21B7B3B300A85EC8 /* LightingGroup.swift */,
 				720BAB3E21B7B50800A85EC8 /* PowerGroup.swift */,
@@ -530,6 +533,7 @@
 				72100E5521A5014200834C4D /* Home.swift in Sources */,
 				720BAB4721B80D0F00A85EC8 /* AccessoryArrayExtensions.swift in Sources */,
 				726A537421B1489D00BFE9B0 /* AccessoryExtensions.swift in Sources */,
+				1F4833072457361300868E82 /* Color.swift in Sources */,
 				720BAB4921B80D3600A85EC8 /* ServiceArrayExtensions.swift in Sources */,
 				726F8A7B21AA65BD0086A34B /* CharacteristicExtensions.swift in Sources */,
 				720BAB4321B80C7100A85EC8 /* GroupFactory.swift in Sources */,

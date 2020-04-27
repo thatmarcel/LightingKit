@@ -13,6 +13,7 @@ import HomeKit
 enum CharacteristicType {
     case power
     case brightness
+    case color
     case unknown
 }
 
@@ -30,6 +31,7 @@ extension HomeKitCharacteristicProtocol {
         switch characteristicType {
         case HMCharacteristicTypePowerState: return .power
         case HMCharacteristicTypeBrightness: return .brightness
+        case HMCharacteristicTypeHue: return .color
         default: return .unknown
         }
     }
